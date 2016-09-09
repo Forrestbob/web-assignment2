@@ -1,5 +1,7 @@
 body {
 	margin-left: 0px;
+	background-image: url("images/background-blue.jpg");
+	background-size: 750px 750px;
 }
 
 .body {
