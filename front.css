@@ -12,6 +12,12 @@ body {
 	text-align: center;
 }
 
+#download {
+	display: block;
+	text-align: right !important;
+	margin-right: -150px !important;
+}
+
 .body {
 	margin-left: 150px;
 	margin-right: 150px;
