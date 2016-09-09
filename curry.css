@@ -1,15 +1,24 @@
+/*
+Forrest Wong
+fwong1
+CSC 4370
+*/
+
 body {
 	margin-left: 0px;
 	background-image: url("images/background-green.jpg");
 	background-size: 750px 750px;
+	background-attachment: fixed;
+	font-family: "century gothic";
+	margin-bottom: 50px;
 }
 
 .body {
 	padding: 20px;
-	padding-top: 40px;
+	padding-top: 60px;
 }
 
-ul {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,7 +30,7 @@ ul {
     width: 100%;
 }
 
-li {
+li.navbar {
     float: left;
 	border-right: 1px solid #bbb;
 }
@@ -52,9 +61,72 @@ li a:hover:not(.active) {
 h1 {
 	font-family: papyrus;
 	text-align: center;
+	font-stretch: expanded;
+}
+
+#description {
+	font-style: italic;
+	text-align: center;
+	font-size: 120%;
+	margin: 40px 200px 40px 200px;
 }
 
 #curry {
-	height: 50%;
-	width: 50%;
+	height: 768px;
+	width: 512px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 60px;
+	margin-top: 20px;
+	margin-bottom: 60px;
 }
+
+#ingredients {
+	list-style-image: url('images/apple.png');
+	margin-top: 80px;
+	margin-left: 100px;
+
+	/*font-weight: bold;*/
+}
+
+#time {
+	border-width: 5px;
+	border-style: groove;
+}
+
+#time th, #time td{
+	height: 50px;
+	width: 120px;
+	border-width: 2px;
+	border-style: groove;
+}
+
+#row2 {
+	text-align: center;
+}
+
+h2 {
+	font-family: papyrus;
+	font-size: 200%;
+}
+
+#instructions, #nutrition {
+	margin: 0 120px 0 120px;
+	clear: both;
+}
+
+#instructions li {
+	margin-top: 20px;
+}
+
+#nutrition table{
+	padding: 20px 20px 20px 20px;
+	width: 250px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.tabbed {
+	padding-left: 20px;
+}
+

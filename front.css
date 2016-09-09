@@ -1,7 +1,14 @@
+/*
+Forrest Wong
+fwong1
+CSC 4370
+*/
+
 body {
 	margin-left: 0px;
 	background-image: url("images/background-blue.jpg");
 	background-size: 750px 750px;
+	background-attachment: fixed;
 }
 
 .body {
